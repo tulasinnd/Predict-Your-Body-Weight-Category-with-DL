@@ -91,14 +91,7 @@ st.write('')
 D_SMOKE = st.selectbox("8 Do you smoke? 🚬", ["yes", "no"])
 st.write('')
 st.write('')
-st.write('9 How much water do you drink daily? 💧')
-c1,c2,c3=st.columns([2,5,3])
-with c1:
-    st.write('Less than a liter')
-with c2:
-    st.write("<p style='text-align: center;'>Between 1 and 2 L</p>", unsafe_allow_html=True)
-with c3:
-    st.write('More than 2 L')
+st.write('9 How much water do you drink daily in liters? 💧')
 ch2o=st.slider("", 1.0, 3.0, step=0.01,key=2)
 st.write('')
 st.write('')
