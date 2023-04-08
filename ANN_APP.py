@@ -64,7 +64,14 @@ def load_model_and_scaler():
 #___________________________________USER INPUT FORM FOR PREDICTION_____________________________________
 
 # Questions
-st.title("Predict Your Body Weight Category with DL")
+st.markdown(
+    """
+    <div style="background-color: # #a64dff; padding: 10px">
+        <h1 style="color: white; text-align: center;">Predict Your Body Weight Category with DL</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.markdown("### Personal Information")
 D_gender = st.selectbox("1 What is your gender? 👧👦", ["Female", "Male"])
 st.write('')
