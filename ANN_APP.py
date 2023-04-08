@@ -12,7 +12,7 @@ import streamlit as st
 @st.cache_resource()
 def load_model_and_scaler():
     # load the dataset
-    df=pd.read_csv(r'C:\Users\91939\OneDrive\Desktop\PLACEMRNTS\3 PROJECT_IDEAS\ML_DL_ALGORITHMS_PROJECTS\ANN_WEIGHT\weight.csv')
+    df=pd.read_csv(r'dataset/weight.csv')
     dele=['FCVC','NCP','FAF','TUE']
     cat=['Gender','fhistory','FAVC','CAEC','SMOKE','SCC','CALC','MTRANS' ]
     cont=['Age','Height','Weight','CH2O']
