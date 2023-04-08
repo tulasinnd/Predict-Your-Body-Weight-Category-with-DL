@@ -8,6 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from keras.models import Sequential
 from keras.layers import Dense
 import streamlit as st
+st.set_page_config(layout="wide")
 
 @st.cache_resource()
 def load_model_and_scaler():
