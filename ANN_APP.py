@@ -66,7 +66,7 @@ def load_model_and_scaler():
 # Questions
 st.markdown(
     """
-    <div style="background-color: # #a64dff; padding: 10px">
+    <div style="background-color: #a64dff; padding: 10px">
         <h1 style="color: white; text-align: center;">Predict Your Body Weight Category with DL</h1>
     </div>
     """,
