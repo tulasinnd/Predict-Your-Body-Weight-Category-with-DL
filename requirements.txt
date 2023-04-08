@@ -12,14 +12,8 @@ decorator==5.1.1
 entrypoints==0.4
 fire==0.5.0
 flatbuffers==23.3.3
-gast==0.4.0
-geographiclib==2.0
-geopy==2.3.0
 gitdb==4.0.10
 GitPython==3.1.30
-google-auth==2.17.2
-google-auth-oauthlib==1.0.0
-google-pasta==0.2.0
 grpcio==1.53.0
 h5py==3.8.0
 idna==3.4
