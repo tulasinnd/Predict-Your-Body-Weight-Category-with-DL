@@ -1,8 +1,8 @@
 # Predict-Your-Body-Weight-Category-with-DL
 
-Application Link:
+Application Link:https://tulasinnd-predict-your-body-weight-category-with-ann-app-efxhzq.streamlit.app/
 
-Demo Video Link:
+Demo Video Link:https://www.linkedin.com/posts/tulasi-n-49b6111b0_python-deeplearning-streamlit-activity-7050548221714042880-BXyS?utm_source=share&utm_medium=member_desktop
 
 ## Overview:
 
